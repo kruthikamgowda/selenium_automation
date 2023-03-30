@@ -21,8 +21,8 @@ public static void main(String[] args) throws Throwable {
       String urlofpage = driver.getCurrentUrl();
       System.out.println(urlofpage);
       //to get the pagesource
-      String page = driver.getPageSource();
-      System.out.println(page);
+//      String page = driver.getPageSource();
+//      System.out.println(page);
 	
 	Thread.sleep(5000);
 	//close all the browser	
